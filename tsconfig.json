@@ -1,0 +1,18 @@
+{
+	"extends": "@thundercraft5/tsconfig/node18-build.tsconfig.json",
+	"compilerOptions": {
+		"outDir": "dist/esm",
+		"module": "esnext",
+		"declarationDir": "dist/types",
+		"isolatedModules": false
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.md/*.js",
+		"src/test.mts"
+	],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}

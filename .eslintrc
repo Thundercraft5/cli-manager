@@ -1,0 +1,16 @@
+{
+	"extends": [
+		"plugin:@thundercraft5/typescript"
+	],
+	"rules": {
+		"import/prefer-default-export": "off"
+	},
+	"overrides": [
+		{
+			"files": "**/*.ts",
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			}
+		}
+	]
+}

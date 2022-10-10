@@ -1,0 +1,38 @@
+{
+	"name": "@thundercraft5/cli-manager",
+	"version": "1.0.0",
+	"description": "A Library to manage CLI applications.",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [
+		"cli",
+		"manager",
+		"library",
+		"node",
+		"args",
+		"parser",
+		"command",
+		"line"
+	],
+	"author": {
+		"url": "https://github.com/Thundercraft5",
+		"name": "Thundercraft5"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"@thundercraft5/node-errors": "file:../node-errors",
+		"@thundercraft5/type-utils": "file:../type-utils",
+		"@types/semver": "7.3.12",
+		"semver": "7.3.8"
+	},
+	"devDependencies": {
+		"@thundercraft5/eslint-plugin": "file:../eslint-plugin",
+		"@thundercraft5/tsconfig": "file:../tsconfig",
+		"ts-node": "10.9.1",
+		"typescript": "4.9.0-dev.20221005"
+	},
+	"typedoc": {
+		"entryPoint": "./src/index.ts"
+	}
+}

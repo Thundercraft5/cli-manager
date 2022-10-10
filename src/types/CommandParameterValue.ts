@@ -1,0 +1,1 @@
+export type CommandParameterValue = bigint | boolean | number | string;
