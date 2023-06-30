@@ -24,7 +24,7 @@
 		"@thundercraft5/node-errors": "file:../node-errors",
 		"@thundercraft5/type-utils": "file:../type-utils",
 		"@types/semver": "7.3.12",
-		"semver": "7.3.8"
+		"semver": "7.5.2"
 	},
 	"devDependencies": {
 		"@thundercraft5/eslint-plugin": "file:../eslint-plugin",
